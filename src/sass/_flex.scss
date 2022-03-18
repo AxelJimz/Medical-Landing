@@ -1,0 +1,72 @@
+// * CONFIGURATION OF FLEX
+// * FLEX
+$flex : true, flex;
+$column : true, column;
+// * JUSTIFY CONTENT
+$justify-left : true, flex-start;
+$justify-center : true, center;
+$justify-right : true, flex-end;
+$justify-between : true, space-between;
+$justify-around : true, space-around;
+// * ALING ITEMS
+$aling-top : true, flex-start;
+$aling-center : true, center;
+$aling-bottom : true, flex-end;
+$aling-between : true, space-between;
+$aling-around : true, space-around;
+// * WRAP 
+$wrap : true, wrap;
+// * GROW
+$grow-1 : false, 1;
+$grow-2 : false, 2;
+$grow-3 : false, 3;
+// * ALING CONTENT
+$content-center-left : (
+    "used" : true,
+    "display" : flex,
+    "aling" : center,
+);
+$content-center : (
+    "used" : true,
+    "display" : flex,
+    "justify" : center,
+    "aling" : center,
+);
+$content-center-right : (
+    "used" : true,
+    "display" : flex,
+    "justify" : flex-end,
+    "aling" : flex-end,
+);
+
+/* MD 768PX */
+
+// * FLEX
+$md-flex : true, flex;
+$md-column : true, column;
+// * JUSTIFY CONTENT
+$md-justify-left : true, flex-start;
+$md-justify-center : true, center;
+$md-justify-right : true, flex-end;
+$md-justify-between : true, space-between;
+$md-justify-around : true, space-around;
+
+/* LG 992PX */
+
+// * FLEX
+$lg-flex : true, flex;
+$lg-column : true, column;
+// * JUSTIFY CONTENT
+$lg-justify-left : true, flex-start;
+$lg-justify-center : true, center;
+$lg-justify-right : true, flex-end;
+$lg-justify-between : true, space-between;
+$lg-justify-around : true, space-around;
+
+
+
+
+
+
+
+

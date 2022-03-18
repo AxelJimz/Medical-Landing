@@ -1,0 +1,63 @@
+// * CONFIGURATION OF CONTAINER
+$width-container: (
+  "sm": 34rem,
+  "md": 40.25rem,
+  "lg": 46.5rem,
+  "xl": 52.75rem,
+  "xxl": 59rem,
+);
+
+/* CONTAINERS */
+.header,
+.nav,
+.section,
+.footer,
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 0.75rem;
+  z-index: 500;
+}
+
+.header {
+  background-image: url(../../src/images/backgrounds/header-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.nav {
+  background-color: map-get($map: $navbar, $key: bg);
+  .container {
+    padding: map-get($map: $navbar, $key: padding);
+  }
+}
+
+header > .container {
+  min-height: map-get($map: $header, $key: height-container);
+  max-height: 100%;
+}
+
+.container {
+  padding: 4rem 0;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-inline {
+  display: inline-block;
+}
+
+.rounded {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

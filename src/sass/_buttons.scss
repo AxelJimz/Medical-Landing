@@ -1,0 +1,44 @@
+// * CONFIGURATION OF BUTTONS
+// * BUTTONS
+$btn: (
+  "size": 0.875rem,
+  "weight": none,
+  "color": black,
+  "color-hover": none,
+);
+$btn-small: (
+  "used": true,
+  "padding": 0.5rem 1rem,
+  "margin": none,
+  "size": 0.688rem,
+  "weight": 700,
+  "color": #fff,
+  "bg": #ff4444,
+  "rounded": none,
+  "color-hover": #fff,
+  "bg-hover": #ff444499,
+);
+$btn-medium: (
+  "used": true,
+  "padding": 0.75rem 1.25rem,
+  "margin": none,
+  "size": 0.75rem,
+  "weight": 500,
+  "color": #fff,
+  "bg": #ff4444,
+  "rounded": none,
+  "color-hover": #fff,
+  "bg-hover": #ff444499,
+);
+$btn-big: (
+  "used": true,
+  "padding": 1rem 2rem,
+  "margin": none,
+  "size": 0.75rem,
+  "weight": 500,
+  "color": #fff,
+  "bg": #ff4444,
+  "rounded": none,
+  "color-hover": #fff,
+  "bg-hover": #ff444499,
+);
